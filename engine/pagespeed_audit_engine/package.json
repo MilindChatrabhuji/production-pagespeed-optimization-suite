@@ -1,0 +1,14 @@
+{
+  "name": "@incomeengine/pagespeed-optimization-engine",
+  "version": "1.0.0",
+  "description": "Production Page-Speed & Core Web Vitals (LCP/INP/CLS) Optimization Engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node src/demo_runner.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
